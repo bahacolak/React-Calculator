@@ -1,13 +1,15 @@
 .result {
     height: 60px;
-    background-color: #bbb;
+    background-color: rgb(109, 9, 109);
     width: 100%;
+    display: flex;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
   }
   
   .result p {
-    font-size: 40px;
-    margin: 5px;
-  
+    font-size: 35px;
+    margin: 10px;
   }
   
   .calculator {
@@ -17,11 +19,33 @@
   
   .button {
     display: block;
-    background-color: #bbb;
+    border: 5px solid rgb(65, 15, 65);
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-color: white ;
   }
   
   button {
     width: 25%;
     height: 60px;
     font-size: 30px;
+  }
+
+  .button button {
+    background-color: rgb(109, 9, 109);
+    border: 2px solid rgb(65, 15, 65);
+  }
+
+  button:hover{
+    color: white;
+    transition: 0.5s;
+  }
+
+  .button button:hover{
+    background: rgb(34, 33, 33);
+    transition: 0.5s;
+  }
+
+  h1{
+    color: white;
   }
